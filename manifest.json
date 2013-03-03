@@ -1,0 +1,16 @@
+{
+  "name": "Google+ SignIn proof - installed app",
+  "description": "Proof of concept for native flow and requests using the tab title to detect the authentication",
+  "version": "1",
+  "manifest_version": 2,
+  "app": {
+    "launch": {
+      "local_path": "index.html"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "https://accounts.google.com/o/oauth2/*",
+    "https://www.googleapis.com/plus/*"
+  ]
+}
