@@ -4,7 +4,7 @@ var tokenValidationUrl = 'https://www.googleapis.com/oauth2/v1/tokeninfo';
 
 var clientId = 'YOUR_CLIENT_ID';
 var clientSecret = 'YOUR_CLIENT_SECRET';
-var redirectUri = 'urn:ietf:wg:oauth:2.0:oob';
+var redirectUri = 'YOUR_REDIRECT_URI';
 var authScope = 'https://www.googleapis.com/auth/plus.login';
 var visibleActions = 'http://schemas.google.com/AddActivity' + 
     ' http://schemas.google.com/ReviewActivity';
